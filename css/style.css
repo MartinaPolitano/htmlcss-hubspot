@@ -1,0 +1,95 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+header {
+  background-color:#cfdbe6;
+  background-size: 50%;
+  border: 30px;
+  margin: auto;
+  height: 80px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+body {
+  font-family;
+  font-size: 16px;
+}
+
+
+.container {
+  width: 80%;
+  margin: auto;
+
+  background-color: transparent;
+}
+
+.header-top-logo {
+  background-color: black;
+  margin-top: 20px;
+  height: 10%;
+  width: 2%;
+  float: left;
+}
+
+
+.header-top-nav-left {
+  margin-top: 20px;
+  width: 45%;
+  float: left;
+  color: grey
+}
+
+.header-top-nav-right {
+  text-align: center;
+  width: 40%;
+  float: right;
+  margin-top: 10px;
+}
+
+.header-top li {
+  margin: 0 5px;
+}
+
+.header-top li a  {
+  color: #33475b;
+  text-decoration: none;
+}
+
+.menu-inline {
+  list-style: none;
+
+}
+
+.menu-inline li {
+  display: inline-block;
+}
+
+<!-- stile bottoni -->
+
+button {
+  margin: 10px;
+  padding: 10px;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px 10px;
+  min-width: 100px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}
+
+.btn-orange {
+  background-color: #ff7a59;
+}
+
+.btn-border-white {
+  border: 3px solid #ff7a59;
+}
