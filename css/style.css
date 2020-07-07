@@ -3,10 +3,28 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-
-
+.clearfix::after {
+  content:"";
+  display:table;
+  clear: both;
+}
+body {
+  font-family: sans-serif;
+}
 header {
-  background-color:#cfdbe6;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 800px;
+  width: 1350px;
+  position: relative;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.header-top {
+  background-color:#F4F9FD;
   background-size: 50%;
   border: 30px;
   margin: auto;
@@ -14,82 +32,99 @@ header {
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
-
-body {
-  font-family;
-  font-size: 16px;
+.header-top-right {
+  margin-bottom: 10px;
+  width: 45%;
+  float: right;
+  color: grey
 }
-
-
-.container {
-  width: 80%;
-  margin: auto;
-
-  background-color: transparent;
+.header-top-prima-riga {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
 }
-
-.header-top-logo {
-  background-color: black;
+.menu-inline {
+  float: left;
+}
+.menu-inline li {
+  margin: 0 5px;
+}
+.menu-inline li a  {
+  color: #33475b;
+  text-decoration: none;
+}
+.menu-inline {
+  list-style: none;
+}
+.menu-inline li {
+  display: inline-block;
+}
+.img {
   margin-top: 20px;
   height: 10%;
   width: 2%;
   float: left;
 }
-
-
-.header-top-nav-left {
-  margin-top: 20px;
-  width: 45%;
-  float: left;
-  color: grey
-}
-
-.header-top-nav-right {
-  text-align: center;
-  width: 40%;
-  float: right;
-  margin-top: 10px;
-}
-
-.header-top li {
-  margin: 0 5px;
-}
-
-.header-top li a  {
-  color: #33475b;
-  text-decoration: none;
-}
-
-.menu-inline {
-  list-style: none;
-
-}
-
-.menu-inline li {
-  display: inline-block;
-}
-
 <!-- stile bottoni -->
-
 button {
   margin: 10px;
   padding: 10px;
 }
-
 .btn {
   border-radius: 5px;
-  color: #fff;
+  color: #ff7a59;
   padding: 8px 10px;
   min-width: 100px;
   background-color: transparent;
   border: none;
   font-size: 16px;
 }
-
 .btn-orange {
   background-color: #ff7a59;
 }
-
 .btn-border-white {
   border: 3px solid #ff7a59;
+}
+.header2 {
+  background: white;
+  border: 30px;
+  margin: auto;
+  height: 80px;
+}
+.menu-inline2 {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  margin-left: 40px;
+  margin-top: 30px;
+  padding-left: 5px;
+  text-decoration: none;
+}
+.menu-inline2 li {
+  display: inline;
+  padding-right: 30px;
+  margin: 15px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+.Titolo {
+  padding: 100px;
+  margin: 0px;
+  font-size: 25px;
+}
+p {
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.colonna1 {
+  padding: 10px;
+  margin-left: 100px;
+
 }
