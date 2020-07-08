@@ -15,7 +15,7 @@ header {
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-position: cover;
-  height: 800px;
+  height: 700px;
   width: 1350px;
   position: relative;
 }
@@ -65,7 +65,9 @@ header {
   width: 2%;
   float: left;
 }
-<!-- stile bottoni -->
+
+/* bottoni */
+
 button {
   margin: 10px;
   padding: 10px;
@@ -81,6 +83,7 @@ button {
 }
 .btn-orange {
   background-color: #ff7a59;
+  color: white;
 }
 .btn-border-white {
   border: 3px solid #ff7a59;
@@ -121,10 +124,63 @@ p {
 
 h2 {
   font-size: 30px;
+  color: #33475b
+
 }
 
-.colonna1 {
-  padding: 10px;
-  margin-left: 100px;
+main {
+  margin: 0;
+  padding: 0;
+  background-color: #fff3ee;
+  height: 0px;
+  width: 1350px;
+  position: relative;
+}
 
+.prima-parte {
+  padding: 30px;
+  margin: 60px;
+  display: left;
+  display: inline-block;
+}
+
+.colonna2 {
+  padding: 60px;
+  margin: 30px;
+  display: left;
+  display: inline-block;
+
+}
+
+.contenuto-colonna {
+  text-transform: uppercase;
+  padding-left: 8px;
+
+}
+
+.lista-colonne {
+  padding-left: 8px;
+  list-style: none;
+  display: inline-block;
+}
+
+.colonna3 {
+  padding: 10px;
+  margin: 20px;
+  display: right;
+  display: inline-block;
+}
+
+.fas {
+  color: #ff7a59;
+}
+
+.orange-1{
+  border-radius: 5px;
+  color: white;
+  padding: 15px 50px;
+  min-width: 100px;
+  background-color: #ff7a59;
+  border: none;
+  font-size: 16px;
 }
